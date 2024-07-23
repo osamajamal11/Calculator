@@ -74,6 +74,6 @@ background-color:hsl(36, 6%, 69%);
 
 @media (min-width:481px) and (max-width:1200px){
     #result{
-        width: 85%;
+        width: 260px;
     }
 }
