@@ -42,7 +42,7 @@ body{
     width: 100%;
     height: 50px;
     margin: 10px 0;
-    font-size: 48px;
+    font-size: 36px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 3px inset #decece;
@@ -70,4 +70,10 @@ background-color:hsl(34, 7%, 58%);
 }
 .operator:active{
 background-color:hsl(36, 6%, 69%);
+}
+
+@media (min-width:481px) and (max-width:1200px){
+    #result{
+        width: 85%;
+    }
 }
