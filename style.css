@@ -72,7 +72,10 @@ background-color:hsl(34, 7%, 58%);
 background-color:hsl(36, 6%, 69%);
 }
 
-@media (min-width:481px) and (max-width:1200px){
+@media (max-width:1300px){
+    .container{
+        align-items: start;
+    }
     #result{
         width: 260px;
     }
