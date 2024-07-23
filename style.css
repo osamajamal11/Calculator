@@ -35,9 +35,10 @@ body{
     color: #000;
     cursor: pointer;
 }
-.operator{
+.operator {
     background-color: rgb(197, 190, 190);
 }
+
 #result{
     width: 100%;
     height: 50px;
@@ -59,25 +60,15 @@ body{
     border-radius: 50px;
     grid-column: -3 / -1;
 }
-.btn:hover{
+/* .btn:hover{
     background-color:hsl(35, 100%, 65%);
-}
+} */
 .btn:active{
     background-color:hsl(35, 100%, 75%);
 }
-.operator:hover{
+/* .operator:hover{
 background-color:hsl(34, 7%, 58%);
-}
+} */
 .operator:active{
 background-color:hsl(36, 6%, 69%);
-}
-
-@media (max-width:1300px){
-    .container{
-        align-items: start;
-    }
-    #result{
-        width: 230px;
-        grid-column: 1/4;
-    }
 }
